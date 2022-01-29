@@ -56,6 +56,7 @@ in
       armTrustedFirmwareAllwinner
       armTrustedFirmwareRK3399
       armTrustedFirmwareS905
+      armTrustedFirmwareiMX8MM
     ;
 
     amlogicFirmware = callPackage ./amlogic-firmware { };
