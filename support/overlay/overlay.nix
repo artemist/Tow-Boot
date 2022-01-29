@@ -61,6 +61,8 @@ in
 
     amlogicFirmware = callPackage ./amlogic-firmware { };
 
+    imx8mmFirmware = callPackage ./imx8mm-firmware { };
+
     gxlimg = callPackage ./gxlimg { };
 
     meson64-tools = callPackage ./meson64-tools { };
